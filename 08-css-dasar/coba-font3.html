@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Short Hand Font</title>
+   <style>
+      @font-face {
+         font-family: pfd;
+         src: url(fonts/playfair-display/PlayfairDisplay-Bold.ttf);
+      }
+
+      @font-face {
+         font-family: poppins;
+         src: url(fonts/poppins/Poppins-Regular.ttf);
+      }
+
+      /* short hand font properties : 
+      font : font-style font-weight font-size/line-height font-family */
+
+      h1 {
+         font: normal bold 32px/2 pfd, 'times new roman', serif;
+      }
+
+      p {
+         font: normal normal 16px/2 poppins, arial, sans-serif;
+      }
+   </style>
+</head>
+
+<body>
+   <h1> Hello World</h1>
+   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde a quam quibusdam hic repudiandae eveniet similique
+      libero quisquam debitis, sequi nesciunt voluptatem, culpa natus id sint, officiis suscipit nihil? Vel!</p>
+</body>
+
+</html>

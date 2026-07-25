@@ -1,0 +1,17 @@
+/* pseoudo selector  
+      ID*/
+#heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 150px;
+  text-align: center;
+  color: rgb(218, 230, 173);
+}
+
+/* class */
+.center {
+  text-align: center;
+}
+
+.lightred {
+  color: lightcoral;
+}
