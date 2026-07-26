@@ -4,6 +4,101 @@
 <head>
    <meta charset="UTF-8">
    <title>Latihan Pseudo-classes Part 1</title>
+   <style>
+      a:link {
+         color: rgb(255, 0, 17);
+      }
+
+      a:visited {
+         color: rgb(226, 107, 43);
+      }
+
+      .btn {
+         background-color: lightblue;
+         padding: 10px 20px;
+         border: none;
+         cursor: pointer;
+      }
+
+      .btn:hover {
+         background-color: lightskyblue;
+      }
+
+      .btn:active {
+         background-color: rgb(6, 82, 215);
+         transform: scale(.9);
+      }
+
+      .btn:visited {
+         background-color: rgb(3, 51, 133);
+      }
+
+      input[type="text"]:focus {
+         background-color: antiquewhite;
+
+      }
+
+      .target-box:target {
+         padding: 15px 25px;
+         background-color: burlywood;
+      }
+
+      input[placeholder="Saya Disabled"] {
+         cursor: not-allowed;
+      }
+
+      input[type="checkbox"]:checked+label {
+         text-decoration: line-through;
+         color: darkolivegreen;
+      }
+
+      .input-email:invalid {
+         background-color: #ffe6e6;
+         border: 1px solid red;
+      }
+
+      .input-email:valid {
+         border: 1px solid green;
+         background-color: #e6ffe6;
+      }
+
+      ul {
+         padding: 0;
+         list-style: none;
+      }
+
+      ul li {
+         padding: 15px;
+         border-bottom: 1px solid lightgray
+      }
+
+      ul li:first-child {
+         background-color: #ffe6e6;
+      }
+
+
+
+      ul li:nth-child(even) {
+         background-color: rgb(234, 177, 191);
+      }
+
+      ul li:nth-child(3) {
+         background-color: aquamarine;
+      }
+
+      ul li:last-child {
+         background-color: rgb(148, 148, 148);
+      }
+
+      .kotak-kosong {
+         background-color: chocolate;
+         padding: 50px;
+      }
+
+      .kotak-kosong:empty {
+         background-color: rgb(233, 35, 240);
+      }
+   </style>
 </head>
 
 <body>
